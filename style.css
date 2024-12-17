@@ -13,3 +13,34 @@ nav {
   display: flex;
   background-color:  #2A2A2A;
 }
+
+.topo--container--1 {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.menu--icon {
+  width: 24px;
+  height: 24px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.menu--logo {
+  margin-left: 40px;
+  width: 100.91px;
+  height: 22.381px;
+}
+
+.topo--container--2 {
+  display: flex;
+  flex: 2;
+}
+
+.topo--container--3 {
+  display: flex;
+  flex: 1;
+}
