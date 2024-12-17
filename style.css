@@ -4,14 +4,14 @@
 }
 
 body {
-  background-color: #0D0D0D;
+  background-color: #0d0d0d;
 }
 
 nav {
   width: 100%;
   height: 56px;
   display: flex;
-  background-color:  #181818;
+  background-color: #181818;
 }
 
 .topo--container--1 {
@@ -22,11 +22,18 @@ nav {
   justify-content: flex-start;
 }
 
+.menu--icon,
+.icone--botao--pesquisa,
+.botao--microfone,
+.avatar--image,
+.topo--container--3 {
+  cursor: pointer;
+}
+
 .menu--icon {
   width: 24px;
   height: 24px;
   margin-left: 20px;
-  cursor: pointer;
 }
 
 .menu--logo {
@@ -46,13 +53,12 @@ nav {
 .campo--pesquisa {
   width: 714px;
   height: 38px;
-  border: 1px solid #2A2A2A;
+  border: 1px solid #2a2a2a;
   outline: none;
-  background-color: #0D0D0D;
+  background-color: #0d0d0d;
   border-radius: 45px 0 0 45px;
   color: white;
   padding-left: 10px;
-
 }
 
 .botao--pesquisa {
@@ -60,14 +66,13 @@ nav {
   height: 38px;
   border: none;
   outline: none;
-  background-color: #2A2A2A;
+  background-color: #2a2a2a;
   border-radius: 0 45px 45px 0;
 }
 
 .icone--botao--pesquisa {
   width: 24px;
   height: 24px;
-  cursor: pointer;
 }
 
 .botao--microfone {
@@ -77,11 +82,26 @@ nav {
   outline: none;
   border-radius: 50%;
   margin-left: 32px;
-  background-color: #2A2A2A;
-  cursor: pointer;
+  background-color: #2a2a2a;
 }
 
 .topo--container--3 {
   display: flex;
   flex: 1;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 34px;
+}
+
+.avatar,
+.avatar--image {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+
+.icone--container--3 {
+  width: 30px;
 }
